@@ -472,7 +472,7 @@ to   { opacity: 1; }
   }
 
   .contact-form-right {
-    margin-top: 0;
+    margin: 0 0 2rem;
   }
 
   .footer-phrase {
@@ -482,6 +482,10 @@ to   { opacity: 1; }
 
   .footer-copyright {
     font-size: .75rem;
+  }
+
+  .social-icons {
+    margin-top: 0;
   }
 
   .social-icon-footer {
