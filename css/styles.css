@@ -434,6 +434,10 @@ to   { opacity: 1; }
     font-size: .75rem;
   }
 
+  .contact-form-right {
+    margin-top: 0;
+  }
+
   .footer-phrase {
     font-size: .75rem;
     margin: 2.5rem auto;
