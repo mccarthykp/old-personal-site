@@ -401,3 +401,15 @@ to   { opacity: 1; }
 .hidden {
   display: none;
 }
+
+/* Media Queries */
+@media screen and (max-width: 800px) {
+  .navbar-brand, .navbar-about, .h1-1, .h2-1 {
+    font-size: 1rem;
+  }
+
+  .contact-me {
+    font-size: 1rem;
+    padding-left: 1rem;
+  }
+}
