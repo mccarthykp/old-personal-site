@@ -358,7 +358,6 @@ from { opacity: 0; }
 to   { opacity: 1; }
 }
 
-
 .highlight {
   color: #00ECFA;
 }
@@ -366,7 +365,6 @@ to   { opacity: 1; }
 /* About Page: Experience Section */
 #experience-1, #experience-2 {
   background-color: rgb(18,18,18);
-  height: 100vh;
   text-align: center;
 }
 
@@ -458,22 +456,25 @@ to   { opacity: 1; }
     text-align: left;
   }
 
+  #experience-1, #experience-2 {
+    text-align: left;
+  }
+
   .workplaces {
     padding: 5% 1rem;
   }
 
-  .experience-1 p {
+  #experience-1 p {
     font-size: .75rem;
-    text-align: left !important;
     width: 90%;
   }
 
-  .experience-2 ul {
-    text-align: left !important;
-    width: 100%;
+  #experience-2 ul {
+    font-size: .75rem;
+    width: 90%;
   }
 
   #experience-1 h2, #experience-2 h2 {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 }
