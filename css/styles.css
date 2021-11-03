@@ -107,7 +107,7 @@ h1 {
 }
 
 .h1-col-padding {
-  padding: 2.5rem 0;
+  padding: 5rem 0;
 }
 
 h3 {
@@ -449,6 +449,10 @@ to   { opacity: 1; }
 
   .navbar-brand, .navbar-about, .h1-1, .h2-1, .contact-me {
     font-size: 1rem;
+  }
+
+  .h1-col-padding {
+    padding: 2.5rem 0;
   }
 
   .contact-me {
