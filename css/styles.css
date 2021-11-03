@@ -404,6 +404,9 @@ to   { opacity: 1; }
 
 /* Media Queries */
 @media screen and (max-width: 800px) {
+  .container-fluid {
+    padding: 1rem 4rem;
+  }
   .navbar {
     padding: 1rem;
   }
