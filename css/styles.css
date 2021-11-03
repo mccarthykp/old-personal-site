@@ -407,11 +407,13 @@ to   { opacity: 1; }
 /* Media Queries */
 @media screen and (max-width: 800px) {
   .container-fluid {
-    padding: 1rem 4rem;
+    padding: 1rem 2rem;
   }
+
   .navbar {
     padding: 1rem;
   }
+
   .navbar-brand, .navbar-about, .h1-1, .h2-1, .contact-me {
     font-size: 1rem;
   }
