@@ -425,4 +425,8 @@ to   { opacity: 1; }
   .social-icon-footer {
     margin: 0 1rem;
   }
+
+  .about-description {
+    margin: 5% 1.5rem 0 ;
+  }
 }
