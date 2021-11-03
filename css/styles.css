@@ -26,6 +26,7 @@ h1 {
   color: rgb(228, 228, 228);
   text-align: center;
   margin-top: 10%;
+  max-width: 1500px;
 
   -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 3s; /* Firefox < 16 */
@@ -367,7 +368,7 @@ to   { opacity: 1; }
   text-align: center;
 }
 
-#experience-1, #experience-2 h2, small {
+#experience-1 h2, #experience-2 h2, small {
   color: rgb(228, 228, 228);
 }
 
@@ -427,6 +428,23 @@ to   { opacity: 1; }
   }
 
   .about-description {
-    margin: 5% 1.5rem 0 ;
+    font-size: 1rem;
+    margin: 5% 1rem 0 ;
+  }
+
+  .workplaces {
+    padding: 5% 1rem;
+  }
+
+  .experience-1 p {
+    width: 90%;
+  }
+
+  .experience-2 ul {
+    width: 100%;
+  }
+
+  #experience-1 h2, #experience-2 h2 {
+    font-size: 1.25rem;
   }
 }
